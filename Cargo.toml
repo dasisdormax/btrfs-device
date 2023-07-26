@@ -1,0 +1,12 @@
+[package]
+name = "btrfs-device"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+btrfs-diskformat = "0.4.0"
+zerocopy = "0.6.1"
+
+[build-dependencies]
+cc = "1.0"
